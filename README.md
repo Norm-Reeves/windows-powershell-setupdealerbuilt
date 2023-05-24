@@ -27,4 +27,4 @@ Change Log:
 
 Example:
 =========
-	ExplanationOfApplicationParts.png
+	[ExplanationOfApplicationParts.png](https://github.com/Norm-Reeves/windows-powershell-setupdealerbuilt/blob/main/ExplanationOfApplicationParts.png)
