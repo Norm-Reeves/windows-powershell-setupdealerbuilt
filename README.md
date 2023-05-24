@@ -6,7 +6,7 @@ Initial release intended for internal IT usage with goal of future automation as
 
 Next markup:
 
-• Initial DealerBuilt username to be dynamically suggested based on the OS enviroments logged-in user. EX: replace "DBC\237.First.Last" with "DBC\###.Dat.Guy" because the logged in user is "dat.guy"
+• Initial DealerBuilt username to be dynamically suggested based on the OS enviroments logged-in user. EX: replace "DBC\237.First.Last" with "DBC\ ###.Dat.Guy" because the logged in user is "dat.guy"
 	
 • Generate a taskbar notification\alert
 
