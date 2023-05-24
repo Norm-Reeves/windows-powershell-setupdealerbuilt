@@ -1,16 +1,16 @@
 # windows-powershell-setupdealerbuilt
 
-PowerShell CLI that allows an AAD user with "Authentication Administrator" or “Privileged Authentication Administrator” to read, disable, enable, enforce, bulk enforce, and reset per-user Azure AD Multi-Factor Authentication for a user.
+Windows Executable GUI tool for creating .rdp shortcut files for selectable servers at selectable path.  The .exe is compiled from a .ps1 file that calls on.NET assembly language to generate a VisualBasic form.  These languages are all natively installed and referencable within Windows OS as they are the programming language of most windows applications.
 
-The Miscrosoft GUI for per-user Azure AD Multi-Factor Authentication management is only accessible to "Global Administrators" which would violate principle of least privilege.
+Initial release intended for internal IT usage with goal of future automation as part of a seamless onboarding process.
 
-We will be moving to Conditional Access in the near future which this script does not apply.
+
 
 Important to Note:
 =========
-• PowerShell module "MSOnline" needs to be installed for this script/.exe to work. You can install the module by running the following command in an elevated PowerShell session: ```Install-Module MSOnline```
-
-• Script/.exe does not need to be elevated to work.
+• .exe does not need to be elevated to work.
+• The application defaults destination path to the OS enviroment's Desktop folder of the user who runs the .exe (ie. Path is dynamic regardless of OneDrive sign-in.)
+• Current version's error handling will intentionally execute with no username variable if an invalid username is provided 3 times.
 
 Download .exe
 =========
