@@ -4,24 +4,18 @@ Windows Executable GUI tool for creating .rdp shortcut files for selectable serv
 
 Initial release intended for internal IT usage with goal of future automation as part of a seamless onboarding process.
 
-
-
 Important to Note:
 =========
-• .exe does not need to be elevated to work.
+• .exe does not need to be elevated to run.
 • The application defaults destination path to the OS enviroment's Desktop folder of the user who runs the .exe (ie. Path is dynamic regardless of OneDrive sign-in.)
 • Current version's error handling will intentionally execute with no username variable if an invalid username is provided 3 times.
+• Current version's DealerBuilt Username field will clear intial example text "DBC\237.First.Last" if user does not change the intial text and will not execute with     "DBC\237.First.Last" text in the field.  Intentionally coded to provide an example but not to allow for creating .rdp file unitentionally.
 
 Download .exe
 =========
-https://github.com/Norm-Reeves/azure-aad-managemfa/releases/download/v1.1/manageMfaV1.1.exe
+https://github.com/Norm-Reeves/windows-powershell-setupdealerbuilt/blob/main/windows-powershell-setupdealerbuilt.ps1
 
 Change Log:
 ============
 1.0:
-
-  • Created base CLI.
-
-1.1:
-
-  • Added bulk enforce (reads .txt file with UPNs on each line).
+  • Created initial release.
