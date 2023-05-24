@@ -24,7 +24,7 @@ Important to Note:
 
 Download .exe
 =========
-https://github.com/Norm-Reeves/windows-powershell-setupdealerbuilt/blob/main/windows-powershell-setupdealerbuilt.ps1
+https://github.com/Norm-Reeves/windows-powershell-setupdealerbuilt/blob/main/windows-powershell-setupdealerbuilt.exe
 
 Change Log:
 ============
