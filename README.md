@@ -1,6 +1,7 @@
 # windows-powershell-setupdealerbuilt
 
-Windows Executable GUI tool for creating .rdp shortcut files for selectable servers at selectable path.  The .exe is compiled from a .ps1 file that calls on.NET assembly language to generate a VisualBasic form.  These languages are all natively installed and referencable within Windows OS as they are the programming language of most windows applications.
+Windows Executable GUI tool for creating .rdp shortcut files for selectable servers at selectable path.  The .exe is compiled from a .ps1 file that calls on .NET assembly language to generate a VisualBasic form.  These languages are all natively installed and referencable within Windows OS.
+
 Initial release intended for internal IT usage with goal of future automation as part of a seamless onboarding process.
 
 Next markup: 
